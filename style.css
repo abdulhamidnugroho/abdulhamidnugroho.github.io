@@ -168,6 +168,50 @@ button:focus {
 	border: none;
 }
 
+/* Fontawesome styling */
+
+i.fas,
+i.fab {
+  font-size: 20px;
+}
+
+.fa-node {
+    color: rgb(116,171,99);
+}
+
+.fa-html5 {
+    color: rgb(229,78,37);
+}
+
+.fa-css3-alt {
+	color: rgb(32,98,175);
+}
+
+.fa-js {
+	color: rgb(243,222,45);
+}
+
+.fa-php {
+	color: rgb(119,123,179);
+}
+
+.fa-database {
+	color: rgb(228,142,0);
+}
+
+.fa-laravel {
+	color: rgb(255,45,32);
+}
+
+.fa-free-code-camp {
+	color: rgb(255,54,15);
+}
+
+.fa-envira {
+	color: rgb(69,155,69);
+}
+
+
 /*Wordpress default class*/
 
 .alignleft {
