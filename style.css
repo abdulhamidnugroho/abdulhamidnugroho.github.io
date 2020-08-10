@@ -168,50 +168,6 @@ button:focus {
 	border: none;
 }
 
-/* Fontawesome styling */
-
-i.fas,
-i.fab {
-  font-size: 20px;
-}
-
-.fa-node {
-    color: rgb(116,171,99);
-}
-
-.fa-html5 {
-    color: rgb(229,78,37);
-}
-
-.fa-css3-alt {
-	color: rgb(32,98,175);
-}
-
-.fa-js {
-	color: rgb(243,222,45);
-}
-
-.fa-php {
-	color: rgb(119,123,179);
-}
-
-.fa-database {
-	color: rgb(228,142,0);
-}
-
-.fa-laravel {
-	color: rgb(255,45,32);
-}
-
-.fa-free-code-camp {
-	color: rgb(255,54,15);
-}
-
-.fa-envira {
-	color: rgb(69,155,69);
-}
-
-
 /*Wordpress default class*/
 
 .alignleft {
@@ -487,7 +443,6 @@ i.fab {
 	background-color: #fff;
 	display: inline;
 	float: left;
-	margin-top: 70px;
 	padding: 20px;
 	width: 100%;
 }
@@ -501,7 +456,7 @@ i.fab {
 .mu-about-content-right {
 	display: inline;
 	float: left;
-	margin-top: 10px;
+	margin-top: 20px;
 	width: 100%;
 }
 
@@ -607,7 +562,7 @@ i.fab {
 .mu-service-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -628,7 +583,7 @@ i.fab {
 .mu-service-content{
 	display: inline;
 	float: left;
-	margin-top: 70px;
+	margin-top: 30px;
 	width: 100%;
 }
 
@@ -824,7 +779,7 @@ i.fab {
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/code.png");
+	background-image: url("assets/images/testimonials-bg.jpeg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -956,7 +911,8 @@ i.fab {
 .mu-contact-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding-top: 50px;
+	padding-bottom: 20px;
 	width: 100%;
 }
 
@@ -1191,11 +1147,10 @@ i.fab {
 
 	.mu-about-content-left img{
 		width: 100%;
-		margin-top: 20px;
 	}
 
 	.mu-about-content-right {
-		margin-top: 25px;
+		margin-top: 50px;
 	}
 
 	.mu-filter-item-content {
@@ -1420,6 +1375,231 @@ i.fab {
 		padding: 0;
 	}
 	
+}
+
+/* Resume */
+#resume {
+	padding-top: 12rem;
+}
+
+#resume .resume-header {
+	text-align: center;
+	margin: 15px;
+}
+#resume .resume-header h2 {
+	color: #336999;
+}
+
+/* #resume .resume-timeline {
+	max-width: 980px;
+} */
+
+#resume .timeline-wrap {
+	position: relative;
+	margin-top: 1.5rem;
+	margin-bottom: 6rem;
+}
+#resume .timeline-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+#resume .timeline-block {
+	position: relative;
+	padding-top: 1.5rem;
+	margin-left: 1px;
+}
+#resume .timeline-ico {
+	height: 4.8rem;
+	width: 4.8rem;
+	line-height: 4.8rem;
+	background: #313131;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	left: 35%;
+	top: .9rem;
+	margin-left: -2.4rem;
+}
+#resume .timeline-ico i {
+	position: relative;
+	left: .05rem;
+	top: .2rem;
+}
+
+#resume .timeline-header {
+	float: left;
+	width: 35%;
+	padding-right: 90px;
+	text-align: right;
+}
+#resume .timeline-header h3 {
+	margin-bottom: 0;
+}
+#resume .timeline-header p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.6rem;
+	color: #888888;
+}
+#resume .timeline-content {
+	margin-left: 35%;
+	padding-left: 60px;
+}
+#resume .timeline-content p {
+	margin-right: 10px;
+	text-align: justify;
+}
+
+#resume .timeline-content h4 {
+	position: relative;
+	padding-bottom: 1.8rem;
+}
+#resume .timeline-content h4::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 50px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+/**
+ * responsive:
+ * resume
+ * ------------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+	#resume .timeline-header {
+		padding-right: 50px;
+	}
+	#resume .timeline-header h3 {
+		font-size: 1.8rem;
+	}
+	#resume .timeline-header p {
+		font-size: 1.4rem;
+	}
+	#resume .timeline-content {
+		padding-left: 50px;
+	}
+}
+@media only screen and (max-width:768px) {
+	#resume .timeline-wrap::before {
+		left: 2.4rem;
+	}
+	#resume .timeline-ico {
+		left: 2.4rem;
+	}
+	#resume .timeline-header {
+		float: none;
+		width: auto;
+		padding-right: 15px;
+		text-align: left;
+	}
+	#resume .timeline-header h3 {
+		font-size: 2rem;
+	}
+	#resume .timeline-header p {
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	#resume .timeline-content {
+		margin: 0;
+	}
+	#resume .timeline-content h4 {
+		padding-bottom: 0;
+		padding-top: 2.1rem;
+		margin-bottom: .6rem;
+		font-size: 1.7rem;
+	}
+	#resume .timeline-content h4::after {
+		bottom: auto;
+		top: 0;
+	}
+	#resume .timeline-header, #resume .timeline-content {
+		padding-left: 7rem;
+	}
+}
+@media only screen and (max-width:480px) {
+	#resume .resume-header h2 {
+		font-size: 2.2rem;
+	}
+	#resume .timeline-wrap::before {
+		left: 1.8rem;
+	}
+	#resume .timeline-ico {
+		height: 3.6rem;
+		width: 3.6rem;
+		line-height: 3.6rem;
+		left: 1.8rem;
+		margin-left: -1.8rem;
+		font-size: 1.5rem;
+	}
+	#resume .timeline-header, #resume .timeline-content {
+		padding-left: 5.5rem;
+	}
+}
+
+/* Fontawesome styling */
+
+i.fas,
+i.fab {
+  font-size: 20px;
+}
+
+.fa-node {
+    color: rgb(116,171,99);
+}
+
+.fa-html5 {
+    color: rgb(229,78,37);
+}
+
+.fa-css3-alt {
+	color: rgb(32,98,175);
+}
+
+.fa-js {
+	color: rgb(243,222,45);
+}
+
+.fa-php {
+	color: rgb(119,123,179);
+}
+
+.fa-database {
+	color: rgb(228,142,0);
+}
+
+.fa-laravel {
+	color: rgb(255,45,32);
+}
+
+.fa-free-code-camp {
+	color: rgb(255,54,15);
+}
+
+.fa-envira {
+	color: rgb(69,155,69);
+}
+
+.fa-linkedin {
+	color: rgb(0,123,182);
+}
+
+.fa-instagram {
+	color: rgb(211,24,102);
+}
+
+.fa-twitter {
+	color: rgb(44,170,225);
 }
 
 
