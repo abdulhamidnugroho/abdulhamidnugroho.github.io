@@ -93,7 +93,7 @@
 			});
 
 			$('.mu-nodejs-bar').LineProgressbar({
-				percentage: 75,
+				percentage: 80,
 				triggerOnce: true
 			});
 
