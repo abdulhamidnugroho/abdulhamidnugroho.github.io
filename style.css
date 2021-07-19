@@ -131,7 +131,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	/* color: ; */
 }
 
 address {
@@ -1091,7 +1091,10 @@ button:focus {
 	transition: all 0.5s;
 }
 
-
+.stack-img {
+  width: 100px;
+  margin: 15px;
+}
 
 /*--------------------*/
 /* RESPONSIVE STYLE */

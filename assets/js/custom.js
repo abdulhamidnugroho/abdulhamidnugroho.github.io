@@ -60,49 +60,49 @@
 	/*  3. SKILL PROGRESS BAR
 	/* ----------------------------------------------------------- */
 
-		$('.mu-skill-progress-bar').appear(function() {
+		// $('.mu-skill-progress-bar').appear(function() {
 
-		 	$('.mu-html5-bar').LineProgressbar({
-				percentage: 90,
-				triggerOnce: true
-			});
+		//  	$('.mu-html5-bar').LineProgressbar({
+		// 		percentage: 90,
+		// 		triggerOnce: true
+		// 	});
 
-			$('.mu-javascript-bar').LineProgressbar({
-				percentage: 80,
-				triggerOnce: true
-			});
+		// 	$('.mu-javascript-bar').LineProgressbar({
+		// 		percentage: 80,
+		// 		triggerOnce: true
+		// 	});
 
-			$('.mu-php-bar').LineProgressbar({
-				percentage: 85,
-				triggerOnce: true
-			});
+		// 	$('.mu-php-bar').LineProgressbar({
+		// 		percentage: 85,
+		// 		triggerOnce: true
+		// 	});
 
-			$('.mu-mysql-bar').LineProgressbar({
-				percentage: 85,
-				triggerOnce: true
-			});
+		// 	$('.mu-mysql-bar').LineProgressbar({
+		// 		percentage: 85,
+		// 		triggerOnce: true
+		// 	});
 
-			$('.mu-laravel-bar').LineProgressbar({
-				percentage: 85,
-				triggerOnce: true
-			});
+		// 	$('.mu-laravel-bar').LineProgressbar({
+		// 		percentage: 85,
+		// 		triggerOnce: true
+		// 	});
 
-			$('.mu-codeigniter-bar').LineProgressbar({
-				percentage: 80,
-				triggerOnce: true
-			});
+		// 	$('.mu-codeigniter-bar').LineProgressbar({
+		// 		percentage: 80,
+		// 		triggerOnce: true
+		// 	});
 
-			$('.mu-nodejs-bar').LineProgressbar({
-				percentage: 80,
-				triggerOnce: true
-			});
+		// 	$('.mu-nodejs-bar').LineProgressbar({
+		// 		percentage: 80,
+		// 		triggerOnce: true
+		// 	});
 
-			$('.mu-mongodb-bar').LineProgressbar({
-				percentage: 70,
-				triggerOnce: true
-			});
+		// 	$('.mu-mongodb-bar').LineProgressbar({
+		// 		percentage: 70,
+		// 		triggerOnce: true
+		// 	});
 
-		});
+		// });
 
 
 
