@@ -449,8 +449,8 @@ button:focus {
 
 .mu-about-content-left {
 	display: inline;
-	float: left;
-	width: 100%;
+	float: center;
+	width: 80%;
 }
 
 .mu-about-content-right {
@@ -1092,7 +1092,7 @@ button:focus {
 }
 
 .stack-img {
-  width: 100px;
+  width: 50px;
   margin: 15px;
 }
 
