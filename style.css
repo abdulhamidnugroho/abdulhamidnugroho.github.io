@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {  
-	font-size: 32px; 
+	font-size: 42px; 
 	line-height: 1.13; 
 }
 
@@ -421,7 +421,7 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	/* padding: 100px 0; */
 	width: 100%;
 }
 
@@ -1382,7 +1382,7 @@ button:focus {
 
 /* Resume */
 #resume {
-	padding-top: 12rem;
+	padding-top: 6rem;
 }
 
 #resume .resume-header {
@@ -1472,6 +1472,11 @@ button:focus {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+
+.mu-contact-header a:hover {
+	text-decoration: underline;
+	color: #0056b3;
 }
 
 /**
